@@ -39,7 +39,9 @@ li a:hover {
    background-color: #3b3d45;
    color: white;
    text-align: center;
-   marker: none;
+   marker-start: none;
+   marker-mid: none;
+   marker-end: none;
 }
 
 
