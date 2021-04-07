@@ -32,6 +32,8 @@ li a:hover {
 
 li a::marker {
   color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 
@@ -43,9 +45,6 @@ li a::marker {
    background-color: #3b3d45;
    color: white;
    text-align: center;
-   marker-start: none;
-   marker-mid: none;
-   marker-end: none;
 }
 
 
