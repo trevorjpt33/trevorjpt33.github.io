@@ -43,6 +43,15 @@ li a:hover {
 }
 
 
+.tab1 {
+  tab-size: 2;
+}
+
+
+.tab2 {
+  tab-size: 4;
+}
+
 </style>
 </head>
 <body>
