@@ -30,10 +30,9 @@ li a:hover {
   background-color: #0047b3;
 }
 
+
 ::marker {
   color: transparent;
-  background-color: transparent;
-  border-color: transparent;
 }
 
 
