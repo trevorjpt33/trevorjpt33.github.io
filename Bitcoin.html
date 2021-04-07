@@ -1,0 +1,45 @@
+<div class="text-center">
+    <h1>@ViewData["Title"]  </h1>
+
+    <p>Enter the Following Fields and Hit Create Course</p>
+      
+</div>
+<form method="post">
+    <div class="text-center">
+        <ul type="none">
+            <p> Select the Course Type</p>
+            <select name="CourseType">
+                <option value="Default">Pick One </option>
+                <option value="CS">CS </option>
+                <option value="MATH">MATH </option>
+                <option value="EE">EE </option>
+            </select>
+        </ul>
+        <form>
+            Course Name :
+            <input type="text" name="CourseName" size="3">
+        </form>
+        <p> Select the Credit Value</p>
+        <select name="CourseValue">
+            <option value="1">1 </option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 </option>
+        </select>
+
+        <form>
+            Number of Class Occurances :
+            <input type="text" name="CourseInstances" size="3" maxlength="2">
+        </form>
+        <br />
+        <br />
+        <br />
+        <br />
+        <input id="CreateCourse" type="submit" value="Create Course" />
+
+
+    </div>
+</form>
+
+
