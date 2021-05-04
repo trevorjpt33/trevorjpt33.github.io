@@ -56,11 +56,17 @@ h3 {
 }
 
 /* Style inputs */
+form {
+  display: grid;
+  margin-left: 160px;
+  margin-right: 180px;
+}
+
 [type=submit] {
-    -webkit-appearance: button;
-    margin-left: 120px;
-    margin-right: 299px;
-    margin-top: 5px;
+  -webkit-appearance: button;
+  margin-left: 120px;
+  margin-right: 140px;
+  margin-top: 5px;
 }
 
 input[type=text], select, textarea {
