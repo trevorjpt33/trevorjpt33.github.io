@@ -33,37 +33,34 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Grid -->
 <div class="w3-row">
-
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="/photos/self.jpg" style="width:25%" "height:25%">
-    <div class="w3-container">
-      <h3><b>Connor Schafer</b></h3>
-      <h5>Connor is a Senior at UMKC. Studies Computer Science and Graudates May 2021. Transfer student from MCC after getting his associates. </h5>
-    </div>
-  </div>
-  <hr>
-
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="/photos/trevor.jpg" style="width:25%" "height:25%">
-    <div class="w3-container">
-      <h3><b>Trevor Poirier</b></h3>
-      <h5>Trevor is a Senior at UMKC. He studies Computer Science and plans to graduate this spring. Originally graduating with a Communication Studies degree,
-      he became passionate about programming and game development, leading him to pursue a double major.</h5>
-    </div>
-      <div class="w3-row">
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- END BLOG ENTRIES -->
-</div>
-
-
-
+  <div class="container">
+   <div style="text-align:center">
+     <h2>Contact Us</h2>
+     <p>Swing by for a cup of coffee, or leave us a message:</p>
+   </div>
+   <div class="row">
+     <div class="column">
+       <img src="/w3images/map.jpg" style="width:100%">
+     </div>
+     <div class="column">
+       <form action="/action_page.php">
+         <label for="fname">First Name</label>
+         <input type="text" id="fname" name="firstname" placeholder="Your name..">
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         <label for="country">Country</label>
+         <select id="country" name="country">
+           <option value="australia">Australia</option>
+           <option value="canada">Canada</option>
+           <option value="usa">USA</option>
+         </select>
+         <label for="subject">Subject</label>
+         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+         <input type="submit" value="Submit">
+       </form>
+     </div>
+   </div>
+ </div> 
 <!-- END GRID -->
 </div><br>
 
