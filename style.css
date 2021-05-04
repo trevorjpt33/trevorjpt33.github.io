@@ -58,8 +58,8 @@ h3 {
 /* Style inputs */
 form {
   display: grid;
-  margin-left: 160px;
-  margin-right: 180px;
+  margin-left: -400px;
+  margin-right: 100px;
 }
 
 [type=submit] {
