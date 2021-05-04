@@ -2,6 +2,16 @@
 <html>
 <head>
 <style>
+
+:root {
+    --DarkBrown: #261408;
+    --Blue: #0F8996;
+    --Orange: #E38844;
+    --Red: #E30000;
+    --White: #FFF;
+    --Black: #000;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -15,7 +25,7 @@ li {
 }
 
 a {
- background-color: black; 
+ background-color: black;
 }
 
 li a {
