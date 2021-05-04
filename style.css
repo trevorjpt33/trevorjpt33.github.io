@@ -46,6 +46,11 @@ li::marker {
 }
 
 
+h3 {
+  color: var(--DarkBrown)
+}
+
+
 .footer {
    position: fixed;
    left: 0;
