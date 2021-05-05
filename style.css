@@ -64,7 +64,7 @@ h3 {
 form {
   display: grid;
   margin-left: -400px;
-  margin-right: 100px;
+  margin-right: 250px;
 }
 
 [type=submit] {
