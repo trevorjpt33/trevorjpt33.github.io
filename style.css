@@ -46,6 +46,11 @@ li::marker {
 }
 
 
+b {
+  margin-left: 10px;
+}
+
+
 h3 {
   color: var(--DarkBrown)
 }
