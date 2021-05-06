@@ -160,6 +160,11 @@ input[type=submit]:hover {
   tab-size: 4;
 }
 
+
+.w3-dark-grey {
+  background-color: darkslategrey;
+}
+
 </style>
 </head>
 <body>
