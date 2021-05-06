@@ -143,7 +143,6 @@ input[type=submit]:hover {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: darkslategrey!important;
    color: white;
    text-align: center;
 }
@@ -157,7 +156,6 @@ input[type=submit]:hover {
 .tab2 {
   tab-size: 4;
 }
-
 
 </style>
 </head>
