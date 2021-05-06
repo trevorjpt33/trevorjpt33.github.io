@@ -159,11 +159,11 @@ input[type=submit]:hover {
 }
 
 
-.w3-light-grey {
+body.w3-light-grey {
   background-color: darkseagreen!important;
 }
 
-.w3-dark-grey {
+body.w3-dark-grey {
   background-color: darkslategrey!important;
 }
 
