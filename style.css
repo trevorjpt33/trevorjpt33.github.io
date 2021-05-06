@@ -35,12 +35,9 @@ a {
 li a {
   display: block;
   color: white;
-  background-color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 8px;
 }
 
 
@@ -138,17 +135,12 @@ input[type=submit]:hover {
 }
 
 
-.header {
-  background-color: darkslategray;
-}
-
-
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: darkslategray;
+   background-color: #3b3d45;
    color: white;
    text-align: center;
 }
