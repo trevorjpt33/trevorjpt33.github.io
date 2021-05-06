@@ -56,12 +56,6 @@ li::marker {
 
 b {
   margin-left: 10px;
-  color: ivory;
-}
-
-
-p {
-  color: ivory;
 }
 
 
@@ -165,9 +159,11 @@ input[type=submit]:hover {
   color: ivory;
 }
 
+
 body.w3-light-grey {
   background-color: #6ebabaa9 !important;
 }
+
 
 header.w3-container.w3-center.w3-padding-32 {
   width: 100%;
