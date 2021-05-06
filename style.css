@@ -12,6 +12,7 @@
     --Black: #000;
 }
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,13 +21,16 @@ ul {
   background-color: #333;
 }
 
+
 li {
   float: left;
 }
 
+
 a {
  background-color: black;
 }
+
 
 li a {
   display: block;
@@ -35,6 +39,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 li a:hover {
   background-color: #0047b3;
@@ -60,12 +65,13 @@ h3 {
   box-sizing: border-box;
 }
 
-/* Style inputs */
+
 form {
   display: grid;
   margin-left: -400px;
   margin-right: 250px;
 }
+
 
 [type=submit] {
   -webkit-appearance: button;
@@ -73,6 +79,7 @@ form {
   margin-right: 140px;
   margin-top: 5px;
 }
+
 
 input[type=text], select, textarea {
   width: 100%;
@@ -83,6 +90,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -91,18 +99,19 @@ input[type=submit] {
   cursor: pointer;
 }
 
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Style the container/contact section */
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
+
 .column {
   float: left;
   width: 50%;
@@ -110,14 +119,14 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
