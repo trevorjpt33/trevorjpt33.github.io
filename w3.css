@@ -1,7 +1,7 @@
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
-    background-color: darkseagreen;
+    background-color: darkseagreen!important;
 }
 
 .w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
-    background-color: darkseagreen;
+    background-color: darkslategrey!important;
 }
