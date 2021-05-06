@@ -29,6 +29,9 @@ li {
 
 a {
  background-color: black;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 8px;
+
 }
 
 
@@ -38,8 +41,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 8px;
 }
 
 
