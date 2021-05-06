@@ -143,7 +143,7 @@ input[type=submit]:hover {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: darkslategrey;
+   background-color: darkslategrey!important;
    color: white;
    text-align: center;
 }
@@ -163,7 +163,7 @@ body.w3-light-grey {
   background-color: darkseagreen!important;
 }
 
-footer.w3-dark-grey {
+.footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top {
   background-color: darkslategrey!important;
 }
 
